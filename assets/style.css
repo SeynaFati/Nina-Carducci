@@ -100,6 +100,9 @@ body {
 .gallery .nav {
 	justify-content: center;
 }
+.nav-link {
+	cursor: pointer;
+}
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
 	background-color: #BEB45A;
@@ -107,6 +110,7 @@ body {
 }
 .nav-pills .nav-link {
 	color: #000
+	transition: all 0.3s ease-in-out;
 }
 .item-column {
 	position: relative;
@@ -125,6 +129,12 @@ body {
 	height: 100%;
 	object-fit: cover;
 	padding: .5em;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+img data-gallery-tag {
+	width: 100%;
+	height: 100%;
 }
 .mg-prev, .mg-next {
 	width: 30px;
@@ -243,6 +253,8 @@ input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
 }
+
+
 
 @media all and (max-width: 1180px) {
 	.picture {
