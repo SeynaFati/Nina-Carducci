@@ -107,13 +107,16 @@ body {
 	color: #000
 
 }
-.nav-pills .nav-link.active, .show > {
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
 	background-color: #5F5926;
 	border-radius:0 ;
 	transition: all 0.3s ease-in-out;
 }
-
+.nav-pills .nav-link {
+	color: #000
+}
 .item-column {
 	position: relative;
 	margin-bottom: 0 !important;
