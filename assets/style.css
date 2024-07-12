@@ -72,6 +72,7 @@ body {
 	width: 100%;
 	height: 100%;
 }
+
 #about-me {
 	flex: 2
 }
@@ -135,6 +136,11 @@ body {
 img data-gallery-tag {
 	width: 100%;
 	height: 100%;
+}
+
+.lightboxImage {
+	width: 545px;
+	height: 525px;
 }
 .mg-prev, .mg-next {
 	width: 30px;
